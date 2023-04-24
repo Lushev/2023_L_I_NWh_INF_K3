@@ -8,7 +8,7 @@ msg = "Hello World!"
 
 
 @app.route('/')
-def index():
+defsf index():
     output = request.args.get('output')
     if not output:
         output = PLAIN
